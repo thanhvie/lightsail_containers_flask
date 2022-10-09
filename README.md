@@ -9,9 +9,9 @@
 5. `aws lightsail create-container-service-deployment --service-name flask-service --containers file://containers.json --public-endpoint file://public-endpoint.json`
 
 Use the get-container-services command to monitor the state of the container
-`aws lightsail get-container-services --service-name flask-service`
+6. `aws lightsail get-container-services --service-name flask-service`
 
 ## Cleanup
-`aws lightsail delete-container-service --service-name flask-service`
+7. `aws lightsail delete-container-service --service-name flask-service`
 
 Read AWS Documentation: https://aws.amazon.com/getting-started/hands-on/serve-a-flask-app/
