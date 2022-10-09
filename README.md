@@ -9,6 +9,7 @@
 5. `aws lightsail create-container-service-deployment --service-name flask-service --containers file://containers.json --public-endpoint file://public-endpoint.json`
 
 Use the get-container-services command to monitor the state of the container
+
 6. `aws lightsail get-container-services --service-name flask-service`
 
 ## Cleanup
